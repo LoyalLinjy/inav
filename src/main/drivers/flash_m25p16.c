@@ -99,6 +99,9 @@ struct {
     // Winbond W25Q128_DTR
     // Datasheet: https://www.winbond.com/resource-files/w25q128jv%20dtr%20revb%2011042016.pdf
     {0xEF7018, 256, 256},
+    // ALLPOWER_AP25Q128
+    // Datasheet: https://github.com/LoyalLinjy/AP25Q128HD/blob/main/AP25Q128HD.pdf
+    {0x852018, 256, 256},
     // Puya PY25Q128HA
     // Datasheet: https://www.puyasemi.com/cpzx3/info_271_itemid_87.html
     {0x856018, 256, 256},
@@ -117,10 +120,7 @@ struct {
     // JEDEC_ID_EON_W25Q64
     {0x1C3017, 128, 256},
     // JEDEC_ID_SPANSION_S25FL116
-    {0x014015, 32, 256 },
-    // ALLPOWER_AP25Q128
-    // Datasheet: https://github.com/LoyalLinjy/AP25Q128HD/blob/main/AP25Q128HD.pdf
-    {0x852018, 256, 256},
+    {0x014015, 32, 256 },  
     // End of list
     {0x000000, 0, 0}};
 
