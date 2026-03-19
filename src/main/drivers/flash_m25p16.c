@@ -99,6 +99,8 @@ struct {
     // Winbond W25Q128_DTR
     // Datasheet: https://www.winbond.com/resource-files/w25q128jv%20dtr%20revb%2011042016.pdf
     {0xEF7018, 256, 256},
+    // ALLPOWER_AP25Q128
+    {0x852018, 256, 256},
     // Puya PY25Q128HA
     // Datasheet: https://www.puyasemi.com/cpzx3/info_271_itemid_87.html
     {0x856018, 256, 256},
@@ -120,6 +122,7 @@ struct {
     {0x014015, 32, 256 },
     // End of list
     {0x000000, 0, 0}};
+    
 
 // The timeout we expect between being able to issue page program instructions
 #define DEFAULT_TIMEOUT_MILLIS       6
