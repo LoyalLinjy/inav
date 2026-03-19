@@ -8,7 +8,7 @@
 
 # ICM426xx IMUs PSA
 
-> The filtering settings for the     ICM4 26 xx has changed to match what is used by Ardupilot and Betaflight in INAV 7.1. When upgrading from older versions you may need to recalibrate the Accelerometer and if you are not using INAV's default tune you may also want to check if the tune is still good.
+> The filtering settings for the     ICM426 xx has changed to match what is used by Ardupilot and Betaflight in INAV 7.1. When upgrading from older versions you may need to recalibrate the Accelerometer and if you are not using INAV's default tune you may also want to check if the tune is still good.
 
 # M7, M6 and older UBLOX GPS units PSA
 
