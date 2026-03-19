@@ -122,6 +122,7 @@ struct {
     {0x014015, 32, 256 },
     // End of list
     {0x000000, 0, 0}};
+    
 
 // The timeout we expect between being able to issue page program instructions
 #define DEFAULT_TIMEOUT_MILLIS       6
