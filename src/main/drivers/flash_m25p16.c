@@ -120,7 +120,7 @@ struct {
     // JEDEC_ID_EON_W25Q64
     {0x1C3017, 128, 256},
     // JEDEC_ID_SPANSION_S25FL116
-    {0x014015, 32, 256 },  
+    {0x014015, 32, 256 },
     // End of list
     {0x000000, 0, 0}};
 
