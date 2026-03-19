@@ -118,6 +118,9 @@ struct {
     {0x1C3017, 128, 256},
     // JEDEC_ID_SPANSION_S25FL116
     {0x014015, 32, 256 },
+    // ALLPOWER_AP25Q128
+    // Datasheet: https://github.com/LoyalLinjy/AP25Q128HD/blob/main/AP25Q128HD.pdf
+    {0x852018, 256, 256},
     // End of list
     {0x000000, 0, 0}};
 
