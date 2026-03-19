@@ -100,7 +100,6 @@ struct {
     // Datasheet: https://www.winbond.com/resource-files/w25q128jv%20dtr%20revb%2011042016.pdf
     {0xEF7018, 256, 256},
     // ALLPOWER_AP25Q128
-    // Datasheet: https://github.com/LoyalLinjy/AP25Q128HD/blob/main/AP25Q128HD.pdf
     {0x852018, 256, 256},
     // Puya PY25Q128HA
     // Datasheet: https://www.puyasemi.com/cpzx3/info_271_itemid_87.html
